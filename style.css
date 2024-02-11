@@ -229,3 +229,84 @@ footer div a{
     text-decoration: none; 
     line-height: 24px;
 }
+
+
+@media screen and (max-width: 680px){
+    header{
+        display: block;
+        text-align: center;
+        padding: 25px;
+    }
+     
+    #icon-ice-cream{
+        display: none;
+    }
+
+    .header-links{
+        margin-right: 16px;
+        font-size: 16px;
+    }
+
+
+    /* Home Section */
+
+
+    #home-section{
+        flex-direction: column;
+    }
+
+    #illustration-ice-cream, #texts {
+        width: 70%;
+    }
+
+
+    /* Cards Section */
+
+
+    #cards {
+        flex-direction: column;
+        height: 580px;
+        padding: 18px;
+        margin: 60px 0;
+    }
+
+    .div-cards {
+        width: 90%;
+        height: 240px;
+        padding: 8px;
+    }
+
+
+    /* Products Section */
+
+
+    .product-description {
+        flex-direction: column;
+        gap: 58px;
+    }
+
+    #products img {
+        max-width: 30%;
+        transition: .6s ease-in-out;
+    }
+
+    #products p {
+        width: 82%;
+        font-size: 16px;
+    }
+
+
+    /* Footer */
+
+
+    footer {
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    #footer-nav-links{
+        display: none;
+    }
+    
+}
